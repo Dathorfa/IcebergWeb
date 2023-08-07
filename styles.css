@@ -33,15 +33,29 @@ body {
 }
 
 .menu {
+  /* WARNING: COnfiguracion Menu */
   position: relative;
   z-index: 2;
-  background: #1e8aa7;
+  background: #3C8DDE;
+  /* WARNING: #1C5786 */
   font-family: 'calibri';
   width: 100%;
   margin: 0 auto;
   clear: both;
   content: '';
   display: table;
+}
+
+.info-menu{
+  position: fixed;
+  right: 4%;
+}
+
+.contacto-menu {
+  position: fixed;
+  z-index: 2;
+  right: 1%;
+  top: 3%;
 }
 
 .links-menu:hover {
@@ -70,8 +84,10 @@ nav ul li {
 }
 
 nav ul li a {
+  /* WARNING: Configuracion de las letras del menu */
   text-decoration: none;
-  color: #000000;
+  color: white;
+  /* WARNING: Color Inicial de las letras de Menu */
   font-weight: bold;
 }
 
@@ -91,6 +107,27 @@ nav ul li a :hover::before {
   width: 100%;
 }
 
+.actividades-vertical {
+  position: fixed;
+  top: 4%;
+  left: 50%;
+  display: none;
+  list-style: none;
+  width: 0px;
+  background-color: rgba(0,0,0, .5);
+}
+
+.menu-horizontal li:hover .actividades-vertical{
+  display: block;
+  position: fixed;
+  left: 19%;
+  /* WARNING: Mover cuadro desplegable */
+}
+
+.menu-vertical li:hover {
+  background-color: black;
+}
+
 .container {
   position: relative;
   z-index: 2;
@@ -106,7 +143,7 @@ a {
   text-decoration: none;
 
   color: rgb(255, 255, 255);
-  transition: color 1000s;
+  transition: color 0.5s;
 }
 
 .face {
