@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 2015px;
+  }
+
   .u-section-1 .u-text-1 {
     margin-top: 369px;
   }
@@ -106,6 +110,10 @@
 }
 
 @media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 1857px;
+  }
+
   .u-section-1 .u-text-1 {
     width: 720px;
     margin-top: 341px;
