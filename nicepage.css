@@ -42280,14 +42280,14 @@ a.u-link.u-text-hover-grey-90:hover {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
 }
 .u-header .u-image-1.u-image-1.u-image-1:hover {
-    transform: translateX(0px) translateY(-5px) scale(1) rotate(3deg) !important;
+    transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
     text-shadow: 0px 0px 0px rgba(0,0,0,0) !important
 }
 .u-header .u-image-1 {
     border-color: transparent !important
 }
 .u-header .u-image-1.u-image-1.u-image-1.hover {
-    transform: translateX(0px) translateY(-5px) scale(1) rotate(3deg) !important;
+    transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
     text-shadow: 0px 0px 0px rgba(0,0,0,0) !important
 }
 .u-header .u-image-1 {
