@@ -109,26 +109,31 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 656px;
+  }
+
   .u-section-1 .u-shape-1 {
-    height: 166px;
-    width: 287px;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 239px;
+    width: 367px;
+    margin-top: 20px;
+    margin-left: -13px;
+    margin-right: -13px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 2.25rem;
-    margin-top: -169px;
-    margin-right: -27px;
-    margin-left: 27px;
+    font-size: 1.875rem;
+    margin-top: -228px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-social-icons-1 {
     height: 46px;
     width: 158px;
-    margin-top: 504px;
-    margin-right: -12px;
+    margin-top: 337px;
+    margin-right: -28px;
+    margin-bottom: 25px;
   }
 }
 

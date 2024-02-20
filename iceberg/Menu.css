@@ -77,7 +77,7 @@
   }
 
   .u-section-1 .u-shape-1 {
-    width: 381px;
+    width: 359px;
     margin-top: 12px;
   }
 
@@ -97,5 +97,10 @@
     width: auto;
     margin-top: -45px;
     margin-bottom: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 71px;
+    margin-left: calc(((100% - 340px) / 2) + 299px);
   }
 }
