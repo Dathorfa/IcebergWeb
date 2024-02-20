@@ -1,7 +1,6 @@
  .u-section-1 {
-  background-image: url("../images/c80e09f89f9c6f9538964f010c12617e93cb624c4d9ac745281de6584ccf8174c8ce46ac8fa4f6a9cbefab79d66301b47fa9f593cc869ebf8cd2b4_1280.jpg");
+  background-image: url("../images/Fotosdeanuncioscashback2.png");
   background-position: 50% 50%;
-  min-height: 830px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -31,17 +30,12 @@
   margin: -58px auto 60px;
 }
 
-@media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 684px;
-  }
+.u-section-1 .u-text-3 {
+  width: auto;
+  margin: -249px 50px 60px calc(((100% - 340px) / 2) + 320px);
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 654px;
-  }
-
   .u-section-1 .u-shape-1 {
     width: 720px;
     margin-top: 404px;
@@ -58,10 +52,6 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 540px;
-  }
-
   .u-section-1 .u-shape-1 {
     width: 540px;
     margin-top: 447px;
@@ -83,19 +73,32 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 566px;
+    min-height: 684px;
   }
 
   .u-section-1 .u-shape-1 {
-    width: 340px;
-    margin-top: 428px;
+    width: 149px;
+    margin-top: 12px;
+    margin-right: calc(((100% - 340px) / 2) + 90px);
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -101px;
+    width: auto;
+    margin-top: -35px;
+    margin-right: 152px;
+    margin-left: calc(((100% - 340px) / 2) + 113px);
   }
 
   .u-section-1 .u-shape-2 {
-    width: 340px;
+    width: 175px;
+    height: 45px;
+    margin-top: 478px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+    width: auto;
+    margin-top: -45px;
+    margin-bottom: 0;
   }
 }
